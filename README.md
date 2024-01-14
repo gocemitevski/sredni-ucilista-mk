@@ -1,4 +1,4 @@
-# Elementary Schools in R. N. Macedonia
+# High Schools in R. N. Macedonia
 
 High Schools in R. N. Macedonia is an independent project based on a [dataset](https://mon.gov.mk/download/?f=spisok%20na%20sredni%20ucilista_1.xls) by the Ministry of Education and Science of the Republic of North Macedonia.
 
