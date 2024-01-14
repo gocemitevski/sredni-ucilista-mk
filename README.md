@@ -10,7 +10,7 @@ The default [dataset](https://mon.gov.mk/download/?f=spisok%20na%20sredni%20ucil
 
 ## Dependencies
 
-* Bootstrap v4.6.0
+* Bootstrap v4.6.2
 * React v16.14.0
 * React Router DOM v5.2.0
 * ReactGA4 v2.1.0
