@@ -27,8 +27,7 @@ const Index = (props) => {
     }
 
     const returnFilteredData = (initialData, value) => {
-        console.log(Object.values(initialData))
-        return value && initialData.filter(el => el.some(item => item.toString().trim().toLowerCase().includes(value.trim().toLowerCase())));
+        return value && initialData.filter(el => Object.values(el).some(item => item.toString().trim().toLowerCase().includes(value.trim().toLowerCase())));
     }
 
     const returnNamesData = (namesData, value) => {
