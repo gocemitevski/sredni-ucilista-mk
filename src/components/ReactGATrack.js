@@ -3,7 +3,7 @@ import { Cookies } from "react-cookie-consent";
 
 const ReactGATrack = (props) => {
 
-    if (Cookies.get("osnovniUcilistaMK") === 'true') {
+    if (Cookies.get("sredniUcilistaMK") === 'true') {
         ReactGA.set({ title: props.title });
         props.location && ReactGA.send({ hitType: "pageview", page: props.location.pathname + props.location.search, title: props.title });
     }

@@ -145,7 +145,7 @@ function App() {
                 buttonText="Во ред"
                 enableDeclineButton={true}
                 declineButtonText="Не, благодарам"
-                cookieName="osnovniUcilistaMK"
+                cookieName="sredniUcilistaMK"
                 containerClasses="fixed-bottom bg-dark text-light d-flex flex-wrap justify-content-between align-content-center p-3"
                 contentClasses="d-inline-flex my-auto py-2"
                 buttonClasses="btn btn-light"

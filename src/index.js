@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import ReactGA from 'react-ga4';
 import { Cookies } from "react-cookie-consent";
 
-if (Cookies.get("osnovniUcilistaMK") === 'true') {
+if (Cookies.get("sredniUcilistaMK") === 'true') {
     ReactGA.initialize(process.env.REACT_APP_GA, { debug: false });
 }
 
