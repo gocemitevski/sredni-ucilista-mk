@@ -1,0 +1,112 @@
+// Color system
+
+$blue:    #1678ca;
+$indigo:  #6610f2;
+$orange:  #ff5400;
+$yellow:  #c18802;
+$teal:    #20c997;
+$purple:  #6f42c1;
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "teal":       $teal,
+  "purple":     $purple
+);
+
+$light:         $gray-200;
+
+$primary:       $purple;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $light;
+$dark:          $gray-800;
+$alert:         $orange;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "muted":      $gray-800,
+  "neutral":    $gray-600,
+  "alert":      $alert
+);
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-responsive-font-sizes:                true;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  s:  360px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-base:            "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$h1-font-size:                $font-size-base * 3;
+
+$display2-size:               5rem;
+$display3-size:               3.5rem;
+$display4-size:               2.5rem;
+
+$display4-weight:             500;
+
+$text-muted:                  darken($gray-600, 5%);
+
+
+// Navs
+
+$link-color:                        theme-color("primary");
+$link-hover-color:                  darken($link-color, 20%);
+
+$nav-link-padding-y:                1rem;
+
+$nav-pills-border-radius:           0;
+
+$nav-pills-link-active-bg:          $primary;
+
+
+// Navbar
+
+$navbar-nav-link-padding-x:         1rem;
+$navbar-dark-color:                 rgba($white, .55);
+
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-link-hover-bg:            $gray-100;
+
+$dropdown-link-disabled-color:      $gray-600;
+
+
+// Cards
+
+$card-cap-bg:                       $gray-100;
