@@ -150,7 +150,7 @@ const Dashboard = (props) => {
                             </div>
                             <div className="card-group">
                                 <Card title="општини со повеќе од десет средни училишта" bgColor="alert" value={`${Math.round(tenUpSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
-                                <Card title="општини со само едно основно училиште" className="ml-sm-3" bgColor="danger" value={`${Math.round(singleSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
+                                <Card title="општини со само едно средно училиште" className="ml-sm-3" bgColor="danger" value={`${Math.round(singleSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
                             </div>
                             <div className="card-group">
                                 <div className="card">
