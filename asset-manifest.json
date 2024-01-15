@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "https://gocemitevski.github.io/sredni-ucilista-mk/static/css/main.51d17a62.chunk.css",
-    "main.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/main.9e76fae2.chunk.js",
+    "main.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/main.d108826f.chunk.js",
     "runtime-main.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/runtime-main.39ee888a.js",
     "static/css/2.673abbbb.chunk.css": "https://gocemitevski.github.io/sredni-ucilista-mk/static/css/2.673abbbb.chunk.css",
     "static/js/2.c8ee1c2f.chunk.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/2.c8ee1c2f.chunk.js",
     "index.html": "https://gocemitevski.github.io/sredni-ucilista-mk/index.html",
-    "precache-manifest.56d077faca1151c22b8ef8bb69722897.js": "https://gocemitevski.github.io/sredni-ucilista-mk/precache-manifest.56d077faca1151c22b8ef8bb69722897.js",
+    "precache-manifest.1b6b7accb03212a9b337a7dbd67e21fb.js": "https://gocemitevski.github.io/sredni-ucilista-mk/precache-manifest.1b6b7accb03212a9b337a7dbd67e21fb.js",
     "service-worker.js": "https://gocemitevski.github.io/sredni-ucilista-mk/service-worker.js",
     "static/js/2.c8ee1c2f.chunk.js.LICENSE.txt": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/2.c8ee1c2f.chunk.js.LICENSE.txt",
     "static/media/marker-icon-alt.png": "https://gocemitevski.github.io/sredni-ucilista-mk/static/media/marker-icon-alt.cdec7938.png"
@@ -16,6 +16,6 @@
     "static/css/2.673abbbb.chunk.css",
     "static/js/2.c8ee1c2f.chunk.js",
     "static/css/main.51d17a62.chunk.css",
-    "static/js/main.9e76fae2.chunk.js"
+    "static/js/main.d108826f.chunk.js"
   ]
 }
