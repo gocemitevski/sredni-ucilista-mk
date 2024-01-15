@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://gocemitevski.github.io/sredni-ucilista-mk/precache-manifest.2624b28181bc3bee7c341ad80dd8240a.js"
+  "https://gocemitevski.github.io/sredni-ucilista-mk/precache-manifest.56d077faca1151c22b8ef8bb69722897.js"
 );
 
 self.addEventListener('message', (event) => {
