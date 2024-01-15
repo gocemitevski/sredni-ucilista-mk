@@ -145,12 +145,12 @@ const Dashboard = (props) => {
                         !municipalityId &&
                         <React.Fragment>
                             <div className="card-group">
-                                <Card title="средни училишта во сите општини во Р. С. Македонија" bgColor="success" value={municipalitySchools.length} />
-                                <Card title="средни училишта во просек, по општина" className="ml-sm-3" bgColor="warning" value={Math.round(municipalitySchools.length / (props.municipalitiesSort.length + 1))} />
+                                <Card title="средни училишта во сите општини во Р. С. Македонија" bgColor="primary" value={municipalitySchools.length} />
+                                <Card title="средни училишта во просек, по општина" className="ml-sm-3" bgColor="primary" value={Math.round(municipalitySchools.length / (props.municipalitiesSort.length + 1))} />
                             </div>
                             <div className="card-group">
-                                <Card title="општини со повеќе од десет средни училишта" bgColor="alert" value={`${Math.round(tenUpSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
-                                <Card title="општини со само едно средно училиште" className="ml-sm-3" bgColor="danger" value={`${Math.round(singleSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
+                                <Card title="општини со повеќе од десет средни училишта" bgColor="primary" value={`${Math.round(tenUpSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
+                                <Card title="општини со само едно средно училиште" className="ml-sm-3" bgColor="primary" value={`${Math.round(singleSchoolMunicipalities.length / (props.municipalitiesSort.length + 1) * 100)}%`} />
                             </div>
                             <div className="card-group">
                                 <div className="card">
