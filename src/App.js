@@ -10,7 +10,6 @@ import School from './components/School';
 import NotFound from './components/NotFound';
 import CookieConsent from "react-cookie-consent";
 import { socialLinkButtons } from './utils';
-// import { cleanName, transliterate } from './utils';
 
 function App() {
 
