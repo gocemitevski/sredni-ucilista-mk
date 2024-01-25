@@ -1,5 +1,5 @@
-const cleanName = require('./utils/cleanName.mjs');
-const transliterate = require('./utils/transliterate.mjs');
+const cleanName = require('./utils/cleanName.cjs');
+const transliterate = require('./utils/transliterate.cjs');
 
 const fs = require('node:fs');
 let data = JSON.parse(fs.readFileSync('./src/data/data.json', 'utf8'));
