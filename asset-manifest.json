@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "https://gocemitevski.github.io/sredni-ucilista-mk/static/css/main.4a8938f1.css",
-    "main.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/main.cf7fc754.js",
+    "main.js": "https://gocemitevski.github.io/sredni-ucilista-mk/static/js/main.d90a6a93.js",
     "static/media/marker-icon-alt.png": "https://gocemitevski.github.io/sredni-ucilista-mk/static/media/marker-icon-alt.0a157143d46d9224ead9.png",
     "index.html": "https://gocemitevski.github.io/sredni-ucilista-mk/index.html"
   },
   "entrypoints": [
     "static/css/main.4a8938f1.css",
-    "static/js/main.cf7fc754.js"
+    "static/js/main.d90a6a93.js"
   ]
 }
