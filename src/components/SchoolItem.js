@@ -9,10 +9,11 @@ const SchoolItem = (props) => {
     return (
         <article className="card school" key={props.index}>
             <div className="row no-gutters">
-                <div className="col-lg-6 p-4 d-flex">
-                    <h2 className="h5 mb-0 flex-fill">
+                <div className="col-lg-6 p-4 d-flex flex-column">
+                    <h2 className={`h5 flex-fill ${props.data.tip ? `mb-2` : `mb-0`}`}>
                         <SchoolItemLink {...props} data={props.data} />
                     </h2>
+                    {props.data.tip && <p className='text-muted'>{props.data.tip}</p>}
                 </div>
                 <div className="col-lg-6">
                     <div className="card-body">

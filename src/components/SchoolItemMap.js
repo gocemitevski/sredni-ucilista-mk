@@ -18,6 +18,7 @@ const SchoolItemMap = (props) => {
                 <div className="col-lg-6">
                     <div className="card-body p-5 d-flex flex-column h-100">
                         <h1 className="h2 mb-3 font-weight-bold card-title">{props.data.ime}</h1>
+                        {props.data.tip && <p className='text-muted'>{props.data.tip}</p>}
                         <dl className="mb-0">
                             <dt>Адреса:</dt>
                             <dd><address className="mb-0">{props.data.adresa}<br />{props.data.opstina}</address></dd>
