@@ -1,11 +1,11 @@
 import React from 'react';
 import SchoolMap from './SchoolMap';
-// import Mail from './Mail';
+import Mail from './Mail';
 import NoMap from './NoMap';
 
 const SchoolItemMap = (props) => {
 
-    //   const emails = props.data[5].split(/[\s|,|;]/);
+    const emails = props.data.email.split(/[\s|,|;]/);
     const { position } = props;
 
 
@@ -19,11 +19,11 @@ const SchoolItemMap = (props) => {
                     <div className="card-body p-5 d-flex flex-column h-100">
                         <h1 className="h2 mb-3 font-weight-bold card-title">{props.data.ime}</h1>
                         {props.data.tip && <p className='text-muted'>{props.data.tip}</p>}
-                        <dl className="mb-0">
+                        <dl className="mb-0 flex-fill">
                             <dt>Адреса:</dt>
                             <dd><address className="mb-0">{props.data.adresa}<br />{props.data.opstina}</address></dd>
                         </dl>
-                        {/* {emails.length > 0 && <ul className="list-inline mb-0 mt-auto">{emails.map((item, key) => <Mail key={key} props={item} />)}</ul>} */}
+                        {emails.length > 0 && <ul className="list-inline mb-0">{emails.map((item, key) => item && <Mail key={key} props={item} />)}</ul>}
                     </div>
                 </div>
             </div>
