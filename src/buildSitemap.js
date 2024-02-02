@@ -29,7 +29,7 @@ const municipalitiesSort = () => {
   return sortedMunicipalities;
 };
 
-const homepage = `https://gocemitevski.github.io/sredni-ucilista-mk`;
+const homepage = `https://gocemitevski.github.io/sredni-ucilista-mk/?`;
 const sitemap = data.uchilishta.map(item => `${homepage}/uchilishte/${encodeURIComponent(cleanName(transliterate(item.ime + ' ' + item.opstina)).toLowerCase())}`);
 sitemap.push(`${homepage}/adresar`);
 sitemap.push(`${homepage}/za-izrabotkata`);
