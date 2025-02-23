@@ -1,5 +1,8 @@
 import React from 'react';
 import L from 'leaflet';
+import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+import iconUrl from 'leaflet/dist/images/marker-icon.png';
+import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
 import 'leaflet/dist/leaflet.css';
 import { Map, TileLayer } from 'react-leaflet';
 import SchoolMapMarker from './SchoolMapMarker';
@@ -9,9 +12,9 @@ const SchoolMap = (props) => {
     delete L.Icon.Default.prototype._getIconUrl;
 
     L.Icon.Default.mergeOptions({
-        iconRetinaUrl: require('../assets/images/leaflet/marker-icon-alt-2x.png'),
-        iconUrl: require('../assets/images/leaflet/marker-icon-alt.png'),
-        shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+        iconRetinaUrl: iconRetinaUrl,
+        iconUrl: iconUrl,
+        shadowUrl: shadowUrl
     });
 
     return (
