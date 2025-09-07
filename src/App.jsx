@@ -132,7 +132,7 @@ function App() {
             <nav className="navbar navbar-border-top flex-column flex-sm-row navbar-footer">
                 <div className="d-flex flex-wrap align-items-center flex-fill justify-content-center justify-content-lg-start mb-2 mb-md-0">
                     <span className="mr-2">Извор на основни податоци:</span>
-                    <a target="_blank" rel="noopener noreferrer" href="https://mon.gov.mk/page/?id=2053">Министерство за образование и наука</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://mon.gov.mk/mk-MK/dokumenti/lista-na-aktivni-registri">Министерство за образование и наука</a>
                 </div>
                 <div className="d-flex flex-wrap align-items-center flex-fill justify-content-center justify-content-lg-end">
                     <span className="mr-2">Изработка на компјутерска презентација:</span>
