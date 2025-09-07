@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     name: Deploy to GitHub pages
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
