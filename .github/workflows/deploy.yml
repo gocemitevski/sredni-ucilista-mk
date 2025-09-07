@@ -9,6 +9,7 @@ jobs:
     name: Deploy to GitHub pages
     permissions:
       contents: read
+      issues: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
